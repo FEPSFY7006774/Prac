@@ -2,7 +2,7 @@
 // 1. VALIDATED TIME STAMP (asks GitHub when the repo was last changed)
 // ---------------------------------------------------------------
 const USERNAME = 'FEPSFY7006774'; // your GitHub username
-const REPO = 'FY7006774';         // your repository name
+const REPO = 'Prac';         // your repository name
 
 // "async" lets us use "await" to wait for the internet request to finish
 async function getLastUpdatedTime() {
