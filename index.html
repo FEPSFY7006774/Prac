@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How can underwater vehicles be optimised for deep-sea operation?</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- defer = run the script after the page has loaded -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ============ HEADER: banner, title, URN ============ -->
+  <header>
+    <img src="WebBanner2026.png" alt="University banner" class="banner">
+    <p class="module">ENG0018 Computer Laboratory 2026/27 &middot; Student URN: 7006774</p>
+    <h1>How can underwater vehicles be optimised for deep-sea operation?</h1>
+  </header>
+
+  <!-- ============ REQUIRED: validated time stamp ============ -->
+  <section id="timestamp-box">
+    <p id="last-updated">Loading last update time...</p>
+    <button id="verify-btn" type="button">Verify last modified time</button>
+  </section>
+
+  <!-- ============ REQUIRED: word count display ============ -->
+  <p id="word-count"></p>
+
+  <!-- ============ TABLE OF CONTENTS (hyperlinks to each section id) ============ -->
+  <nav id="toc" aria-label="Table of contents">
+    <h2>Contents</h2>
+    <ul>
+      <li><a href="#abstract">Abstract</a></li>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#drag">Drag and hull shape</a></li>
+      <li><a href="#pressure">Pressure</a></li>
+      <li><a href="#propulsion">Propulsion</a></li>
+      <li><a href="#biomimetics">Biomimetic design</a></li>
+      <li><a href="#conclusion">Conclusion</a></li>
+      <li><a href="#references">References</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- Abstract is OUTSIDE #article-text, so it is not counted -->
+    <section id="abstract">
+      <h2>Abstract</h2>
+      <p>Write 3-4 sentences summarising the question, the four areas and your main finding.</p>
+    </section>
+
+    <!-- Everything inside this div IS counted (headings, captions, citations) -->
+    <div id="article-text">
+
+      <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Intro text here. Citation example:
+          <a href="#ref-noaa" class="cite">(NOAA, 2026)</a>.</p>
+      </section>
+
+      <section id="drag">
+        <h2>Drag and hull shape</h2>
+        <p>Text here. Refer to figures in the text, e.g. <a href="#fig1">Figure 1</a> shows...</p>
+
+        <figure id="fig1">
+          <img src="images/figure1.png" alt="Describe the figure for screen readers">
+          <figcaption>Figure 1: Caption describing the figure (source).</figcaption>
+        </figure>
+      </section>
+
+      <section id="pressure">
+        <h2>Pressure</h2>
+        <p>Text here.</p>
+      </section>
+
+      <section id="propulsion">
+        <h2>Propulsion</h2>
+        <p>Text here.</p>
+      </section>
+
+      <section id="biomimetics">
+        <h2>Biomimetic design</h2>
+        <p>Text here.</p>
+      </section>
+
+      <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>Text here.</p>
+      </section>
+
+    </div>
+
+    <!-- References are OUTSIDE #article-text, so they are not counted.
+         Each entry has an id so the in-text citations can link to it,
+         plus a link out to the real source. -->
+    <section id="references">
+      <h2>References</h2>
+      <ul>
+        <li id="ref-noaa">
+          NOAA (2026) <em>Title of page</em>. Available at:
+          <a href="https://example.com" target="_blank" rel="noopener">https://example.com</a>
+          (Accessed: 1 November 2026).
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>ENG0018 &middot; URN 7006774</p>
+  </footer>
+
+</body>
+</html>
